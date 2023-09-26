@@ -16,7 +16,7 @@ Cela permet à la commande "fetch" de récupérer les réponses de notre fonctio
 Si le script Python "replace_url.py" ne fonctionne pas, vous pouvez également modifier directement le fichier "html/speedlightterra.html" en remplaçant la valeur "REPLACE_WITH_API_GATEWAY_URL" à la ligne 53 par l'URL de l'endpoint de l'API, en plaçant cette URL entre guillemets, par exemple :
 
 Avant modification :
--	fetch("https://8v424hhf2.execute-api.us-east-1.amazonaws.com/prod/resource", requestOptions)
+-	fetch("https://8v4124hjjhf2.execute-api.us-east-1.amazonaws.com/prod/resource", requestOptions)
 Après modification :
 -	fetch(REPLACE_WITH_API_GATEWAY_URL, requestOptions)
 
